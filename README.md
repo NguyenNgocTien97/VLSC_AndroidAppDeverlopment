@@ -4,9 +4,9 @@
 
 ---
 
-## 📱 Hình Ảnh Minh Chứng Chạy Ứng Dụng
+## Hình Ảnh Minh Chứng Chạy Ứng Dụng
 
-![Ảnh minh chứng ứng dụng](screenshot.png)
+![Lab3.jpg](app/src/main/java/vn/edu/vlsc/lab3a/Lab3.jpg)
 
 ---
 
@@ -30,28 +30,3 @@
   - `ConstraintLayout` & `LinearLayout`
   - `MaterialCardView` (Material Design 3)
 - **Hệ thống Build**: Gradle (Kotlin DSL - `build.gradle.kts`)
-
----
-
-## 📂 Cấu Trúc Dự Án
-
-```text
-app/src/main/java/vn/edu/vlsc/lab3a/
-├── model/
-│   └── Student.kt             # Data class định nghĩa đối tượng Sinh viên
-├── adapter/
-│   └── StudentAdapter.kt      # ListAdapter & ViewHolder xử lý danh sách sinh viên
-└── MainActivity.kt            # Activity chính khởi tạo RecyclerView và xử lý sự kiện
-```
-
----
-
-## 🚀 Hướng Dẫn Chạy Dự Án
-
-1. Clone repository về máy:
-   ```bash
-   git clone https://github.com/NguyenNgocTien97/VLSC_AndroidAppDeverlopment.git
-   ```
-2. Mở dự án trong **Android Studio**.
-3. Chờ Gradle Sync hoàn tất.
-4. Chọn thiết bị ảo (Emulator) hoặc thiết bị thật và nhấn **Run** (`Shift + F10`).
