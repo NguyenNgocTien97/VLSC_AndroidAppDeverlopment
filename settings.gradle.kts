@@ -22,5 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Lab1_HelloWorld_2500113793"
+rootProject.name = "Lab3aStudentList"
 include(":app")
+ 
