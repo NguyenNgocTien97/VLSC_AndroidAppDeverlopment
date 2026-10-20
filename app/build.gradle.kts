@@ -1,15 +1,16 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.parcelize)
 }
 
 android {
-    namespace = "vn.edu.vlsc.lab1helloworld"
+    namespace = "vn.edu.vlsc.lab3a"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "vn.edu.vlsc.lab1helloworld"
+        applicationId = "vn.edu.vlsc.lab3a"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -29,6 +30,10 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -37,6 +42,8 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.ktx)
     implementation(libs.material)
+    implementation(libs.androidx.recyclerview)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)

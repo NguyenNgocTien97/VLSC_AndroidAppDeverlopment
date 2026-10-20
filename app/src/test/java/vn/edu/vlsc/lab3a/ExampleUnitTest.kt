@@ -1,4 +1,4 @@
-package vn.edu.vlsc.lab1helloworld
+package vn.edu.vlsc.lab3a
 
 import org.junit.Test
 
